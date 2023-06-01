@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+body{
+    overflow-x: hidden;
+}
+nav{
+    position: fixed;
+    z-index: 5;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.navbar1 li a{
+    text-decoration: none;
+    padding: 20px;
+   font-size: 16px;
+   color: black;
+}
+
+.navbar1 li{
+    list-style-type: none !important;
+    display: inline-block;
+}
+.hero{
+    background-image: url("image/Scribble\ Lightest.png");
+    background-repeat: no-repeat;
+    background-size: 450px 350px;
+    background-position: bottom left;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 5px !important;
+}
+
+.links ul li{
+    list-style-type: none;
+}
+
+/* mobile screen */
+@media screen and (max-width: 480px) {
+
+    body {
+        margin: 0px !important;
+        padding: 0px !important;
+        width: 100% !important;
+        overflow-x:hidden !important;
+    }
+
+    nav{
+        position: fixed !important;
+    }
+
+    .navbar{
+        justify-content: center !important;
+    }
+
+    .navbar1 li a{
+        text-decoration: none;
+        padding: 10px;
+       font-size: 18px;
+       color: black;
+    }
+    
+    .navbar1 li{
+        list-style-type: none !important;
+        display: inline-block;
+    }
+
+    .ctbtn{
+        display: none !important;
+    }
+    .dream{
+        width:100% !important;
+    }
+
+    .dream1{
+        margin: 25px !important;
+        padding: 0px !important;
+
+    }
+    .hero{
+        margin-top: 70px !important;
+    }
+
+    .heroimg{
+        display: none;
+    }
+
+    .memory{
+        width:100% !important;
+    }
+
+    .cards{
+        width: 100%;
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        justify-content: center !important;
+    }
+    .card{
+        margin: 10px !important;
+        width: 40% !important;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column !important;
+        width: 100% !important;
+        margin: 0px !important;
+        margin-top: 10px !important;
+    }
+    .foot{
+        width: 100% !important;
+    }
+    .footertext{
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    .footertext h1{
+        font-size: 36px !important;
+    }
+    .qlink{
+        margin-top: 25px !important;
+    }
+    .link{
+
+        height: 50% !important;
+        width: 100% !important;
+        /* border: 1px solid white !important; */
+    }
+    .links{
+        width: 50% !important;
+    }
+    .links ul li a{
+    
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    
+    .links ul li{
+        list-style-type: none;
+    }
+
+    .links ul li a:hover{
+        color: red;
+    } 
+}
