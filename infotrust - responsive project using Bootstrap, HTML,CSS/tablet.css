@@ -1,0 +1,308 @@
+/* tablate view */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    body {
+        overflow-x: hidden !important;
+        padding: 0% !important;
+        margin: 0% !important;
+    }
+
+    /* logo */
+    .logo {
+        width: 20% !important;
+    }
+
+    .logo img {
+        /* padding: 10px; */
+        margin-left: 10% !important;
+        width: auto !important;
+        height: auto !important;
+        position: relative !important;
+        margin-top: 0% !important;
+    }
+
+    .navbar {
+        width: 100% !important;
+    }
+
+    .navbar-toggler {
+        width: 50px !important;
+        /* margin-right: 30px !important; */
+        border: none !important;
+    }
+    
+    .navbar-brand {
+        width: 60%;
+        height: auto;
+    }
+
+    .navbar-brand img {
+        width: 100%;
+        height: auto;
+    }
+
+ /* toggler button */
+ .menu {
+    margin-top: 0px !important;
+    padding-left: 0px !important;
+    margin-left: 25%;
+}
+
+.menu li a {
+    text-decoration: none !important;
+    color: black !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* .menu li {
+    display: block;
+    margin: 5px;
+    font-size: 17px;
+    padding: 8px 28px;
+} */
+.menu li {
+    display: inline-block !important;
+    margin: 5px;
+    padding: 8px 5px;
+    font-size: 17px;
+
+}
+/* .navbar-link li {
+    display: inline-block !important;
+    padding: 8px 10px;
+    font-size: 17px;
+} */
+
+/* announcement */
+
+.announcement {
+    margin-top: 0% !important;
+    background-color: #0d548a;
+}
+.announcement1 {
+    margin-top: 0px !important;
+    border-radius: 2% !important;
+    height: 30px !important;
+}
+
+.announcement h5 {
+    font-size: 14px !important;
+    padding: 0% !important;
+    margin-top: 0% !important;
+}
+
+.announcement marquee {
+    font-size: 14px !important;
+    padding: 0px !important;
+    margin-top: 0% !important;
+}
+
+/* content */
+.content {
+    max-height: 100% !important;
+    max-width: auto !important;
+}
+
+/* heading */
+.head {
+    margin-top: 0% !important;
+    height: auto !important;
+    padding: 0% !important;
+    font-size: 14px !important;
+    padding-left: 10px !important;
+
+}
+
+.head i {
+    font-size: 12px !important;
+    padding: 0% !important;
+}
+
+/* quicklink */
+.quicklink2 {
+    display: flex !important;
+    text-align: center !important;
+    /* justify-content: center !important; */
+    color: white;
+    margin-top: 2% !important;
+    padding:7% !important;
+    padding-top: 0% !important;
+}
+
+.quicklink, .quicklink1{
+    margin: 0% !important;
+}
+
+.quicklink2,
+.quicklink3 {
+    width: auto !important;
+}
+
+.quicklink3 {
+    width: 33.3333% !important;
+}
+
+.quicklink1 h5,
+.quicklink h5 {
+    font-size: 12px !important;
+}
+.quicklink1 i,
+.quicklink i {
+    font-size: 16px !important;
+}
+
+
+ /* slider */
+
+ .slider {
+    width: 100%;
+    max-height: auto !important;
+}
+
+.carousel-item img {
+    height: 192px !important;
+}
+
+.carousel-caption{
+    display: none !important;
+}
+
+/* value  */
+.imgvalue {
+    width: auto !important;
+    height: 95% !important;
+}
+
+.value{
+    height: 100% !important;
+    margin-top: auto !important;
+}
+
+.maincontent{
+    margin-top: 0px !important;
+}
+
+ /* How tos */
+ .howtos li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 10px;
+}
+
+.howtos li {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.335);
+}
+
+.howtos {
+    width: 100%;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+
+/* business update */
+.businessupdate {
+    width: auto !important;
+}
+
+.businessimg {
+    width: 20% !important;
+    height: auto !important;
+}
+
+.businessimg img {
+    width: 130% !important;
+    height: auto !important;
+    margin-top: 10% !important;
+}
+
+.businessinfo {
+    width: 80% !important;
+}
+
+.businessinfo h6 {
+    font-size: 12px !important;
+    text-align: justify !important;
+}
+
+.businessinfo h4 {
+    font-size: 16px !important;
+    text-align: justify !important;
+}
+
+/* staff  directory */
+.person1{
+    display: flex !important;
+    justify-content: center !important;
+
+
+}
+.staffimg {
+    width: 40% !important;
+    height: auto !important;
+}
+
+.staffimg img {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 10% !important;
+    margin-left: 20% !important;
+}
+
+.staffinfo {
+    width: 100% !important;
+    margin-left: 15px !important;
+    text-align: center;
+}
+
+.staffinfo h6 {
+    font-size: 14px !important;
+    margin: 0% !important;
+}
+
+.staffinfo i {
+    margin-top: 0% !important;
+    font-size: 10px !important;
+}
+
+.head1 {
+    margin-top: 1% !important;
+    height: auto !important;
+    padding: 0% !important;
+    font-size: 13px !important;
+    padding-left: 10px !important;
+
+}
+
+.calender {
+    width: 80% !important;
+    padding-left: 12% !important;
+    /* margin-left: 5px !important; */
+    /* height: auto !important; */
+}
+
+
+.calender h4 {
+    font-size: 10px !important;
+}
+
+.calender p {
+    font-size: 12px !important;
+}
+.calenderimg {
+    width: 20% !important;
+    height: auto !important;
+}
+
+
+.calenderimg img {
+    width: 250% !important;
+    height: auto !important;
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+}
+}
