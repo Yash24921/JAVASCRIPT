@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Result Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="script.js"></script>
+  <style>
+    .container {
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container w-25">
+    <h2>Student Result Form</h2>
+    <form>
+      <div class="form-group">
+        <label for="id">ID:</label>
+        <input type="number" class="form-control" id="id" placeholder="Enter student ID">
+      </div>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter student name">
+      </div>
+      <div class="form-group">
+        <label for="maths">Maths:</label>
+        <input type="number" class="form-control" id="maths" placeholder="Enter maths marks">
+      </div>
+      <div class="form-group">
+        <label for="physics">Physics:</label>
+        <input type="number" class="form-control" id="physics" placeholder="Enter physics marks">
+      </div>
+      <div class="form-group">
+        <label for="chemistry">Chemistry:</label>
+        <input type="number" class="form-control" id="chemistry" placeholder="Enter chemistry marks">
+      </div>
+      <div class="form-group">
+        <label for="english">English:</label>
+        <input type="number" class="form-control" id="english" placeholder="Enter English marks">
+      </div>
+      <div class="form-group">
+        <label for="computer">Computer:</label>
+        <input type="number" class="form-control" id="computer" placeholder="Enter computer marks">
+      </div>
+      <button type="button" class="btn btn-primary" onclick="calculate()">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
