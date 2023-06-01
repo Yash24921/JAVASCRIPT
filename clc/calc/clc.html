@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="clc.js"></script>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="calculator">
+            <input type="text" id="input" placeholder="0" readonly>  
+            <div class="row btndiv">
+                <div class="col-3">
+                    <button type="button" class="btn clear" onclick="clearInput()">C</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn operator" onclick="add('/')">&#247;</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn operator" onclick="add('*')">&times;</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn operator" onclick="add('-')">-</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('7')">7</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('8')">8</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('9')">9</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn operator" onclick="add('+')">+</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('4')">4</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('5')">5</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('6')">6</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn operator" onclick="add('%*')">%*</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('1')">1</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('2')">2</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('3')">3</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn operator" onclick="add('%')">%</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('00')">00</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('0')">0</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn number" onclick="add('.')">.</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn operator" onclick="calculate1()  ">=</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    
+</body>
+</html>

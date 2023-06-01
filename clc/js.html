@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Case Sensitivity</title>
+</head>
+<body>
+    <script>
+    // var myVar = "Hello World!";
+    // var MyVar = "Hello World!";
+    // var name = "what's Your name?";
+    // console.log(myVar);
+    // console.log(MyVar);
+    // console.log(name);
+
+    //    // Declaring variables
+    //    let name = "Harry Potter";
+    // let age = 11;
+    // let isStudent = true;
+    
+    // // Printing variable values
+    // document.write(name + "<br>");
+    // document.write(age + "<br>");
+    // document.write(isStudent + "<br>");
+    
+    // // Declaring constant
+    // let PI = 3.14;
+    //  PI = 10;
+    
+    // // Printing constant value
+    // document.write(PI); // 3.14
+    
+    // // Trying to reassign
+    // PI = 10; // error
+
+    var emptyObject = {};
+    var person = {"name": "Clark", "surname": "Kent", "age": "36"};
+     
+    // For better reading
+    var car = {
+        "modal": "BMW X3",
+        "color": "white",
+        "doors": 5
+    }
+    
+    // Print variables values in browser's console
+    // console.log(person);
+    // console.log(car);
+
+
+    // var greeting = function(){ 
+    //     return "Hello World!"; 
+    // }
+     
+    // // Check the type of greeting variable
+    // document.write(typeof greeting) // Output: function
+    // document.write("<br>");
+    // document.write(greeting());     // Output: Hello World! 
+
+
+    // function createGreeting(name){
+    //     return "Hello, " + name;
+    // }
+    // function displayGreeting(greetingFunction, userName){
+    //     return greetingFunction(userName);
+    // }
+     
+    // var result = displayGreeting(createGreeting, "Peter");
+    // document.write(result); // Output: Hello, PeterExampleTry this code »
+    // function createGreeting(name){
+    //     return "Hello, " + name;
+    
+
+        var year = 2000 ;
+ 
+// Leap years are divisible by 400 or by 4 but not 100
+if((year % 400 == 0)){
+    alert(year + " is a leap year.");
+} else{
+    alert(year + " is not a leap year.");
+}
+</script>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph of text.</p>
+
+<button type="button" onclick="document.write('Hello World!')">Click Me</button>
+</body>
+</html>
